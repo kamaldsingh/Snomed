@@ -1,6 +1,5 @@
-from queue import Queue
 from worker.neo4j_upload_worker import Neo4jUploadWorker
-
+from multiprocessing import Queue
 __author__ = 'pradeepv'
 
 

@@ -1,6 +1,6 @@
-from queue import Queue
 from threading import Thread
 import time
+from multiprocessing import Queue
 
 __author__ = 'pradeepv'
 

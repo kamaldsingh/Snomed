@@ -20,9 +20,10 @@ print('starting processing snomed zip file ...')
 start_time = time.time()
 print('start time ' + time.ctime())
 sc = SnomedConfig().ConfigSectionMap("FileSection")
-zip_file_directory = sc["snomedziplocation"]
-zip_file_name = listdir(zip_file_directory).pop()
-zip_file = os.path.join(zip_file_directory,zip_file_name)
+#zip_file_directory = sc["snomedziplocation"]
+#zip_file_name = listdir(zip_file_directory).pop()
+#zip_file = os.path.join(zip_file_directory,zip_file_name)
+zip_file = sc["snomedziplocation"]
 
 print('Found the zip file '+ zip_file +' and stating processing ...')
 
